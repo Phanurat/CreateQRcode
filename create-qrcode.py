@@ -15,7 +15,7 @@ def create_qr_code(url, file_path):
 
 if __name__ == "__main__":
     # เปลี่ยน url ตามลิงก์ที่ต้องการสร้าง QR code
-    url = "https://drive.google.com/drive/folders/1bDb-dKuspAM_4BckY3EfcVv077R97wvE?usp=drive_link"
-    file_path = "qr_code.png"  # เปลี่ยนเป็นตำแหน่งที่คุณต้องการเก็บไฟล์ QR code
+    url = "https://forms.gle/YFs5oQm2rCZYpwcA8"
+    file_path = "qr_form.png"  # เปลี่ยนเป็นตำแหน่งที่คุณต้องการเก็บไฟล์ QR code
 
     create_qr_code(url, file_path)
